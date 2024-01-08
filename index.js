@@ -9,7 +9,7 @@ app.listen(PORT, () =>{
 });
 
 app.get('/', (req, res) =>{
-   res.send('Hey this is my api running....... on port 4500 host again 2nd time ------------------ olny git push ');
+   res.send('Hey this is my api running....... on port 4500 host only one time in vercel and 2nd time automatically detect push in git and update vercel auto ');
 });
 
 module.export = app;
